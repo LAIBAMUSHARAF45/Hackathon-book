@@ -44,7 +44,7 @@ export default {
           "label": "Book"
         },
         {
-          "href": "https://github.com/alishbamusharraf",
+          "href": "https://github.com/LAIBAMUSHARAF45/Hackathon-book",
           "label": "GitHub",
           "position": "right"
         }
@@ -81,7 +81,7 @@ export default {
           "items": [
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/LAIBAMUSHARAF45/Hackathon-book"
             }
           ]
         }
