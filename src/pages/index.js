@@ -1,12 +1,15 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 
+import Chatbot from '../components/Chatbot';
+
 export default function Home() {
   return (
     <Layout
       title="Physical AI & Humanoid Robotics"
       description="Learn ROS 2, NVIDIA Isaac, Digital Twins & Vision-Language-Action systems"
     >
+      <Chatbot />
       <main
         style={{
           minHeight: '90vh',
@@ -14,7 +17,7 @@ export default function Home() {
           placeItems: 'center',
           padding: '90px 20px',
           background:
-            'radial-gradient(1200px 600px at 10% -10%, #e0e7ff 0%, transparent 40%), radial-gradient(1200px 600px at 110% 10%, #c7d2fe 0%, transparent 40%), linear-gradient(180deg, #ffffff 0%, #f8fafc 100%)',
+            'radial-gradient(1200px 600px at 10% -10%, #0f797f33 0%, transparent 40%), radial-gradient(1200px 600px at 110% 10%, #00838e33 0%, transparent 40%), linear-gradient(180deg, #021f22 0%, #031314 100%)',
         }}
       >
         <section
@@ -27,18 +30,19 @@ export default function Home() {
             alignItems: 'center',
           }}
         >
-          {/* Left: Content */}
-          <div style={{ textAlign: 'left' }}>
+          {/* LEFT CONTENT */}
+          <div>
             <span
+
               style={{
                 display: 'inline-block',
-                padding: '6px 12px',
+                padding: '6px 14px',
                 borderRadius: '999px',
-                background: '#eef2ff',
-                color: '#4f46e5',
+                background: '#0f797f',
+                color: '#e6fffb',
                 fontWeight: 600,
                 fontSize: '0.85rem',
-                marginBottom: '14px',
+                marginBottom: '16px',
               }}
             >
               Open-source • Beginner → Advanced
@@ -46,19 +50,19 @@ export default function Home() {
 
             <h1
               style={{
-                fontSize: '3.25rem',
+                fontSize: '3.2rem',
                 lineHeight: 1.05,
                 fontWeight: 800,
                 letterSpacing: '-0.02em',
                 margin: '12px 0 18px',
-                color: '#0f172a',
+                color: '#e6fffb',
               }}
             >
               Physical AI &<br />
               <span
                 style={{
                   background:
-                    'linear-gradient(90deg, #4f46e5, #22d3ee)',
+                    'linear-gradient(90deg, #0f797f, #00838e)',
                   WebkitBackgroundClip: 'text',
                   WebkitTextFillColor: 'transparent',
                 }}
@@ -70,41 +74,41 @@ export default function Home() {
 
             <p
               style={{
-                fontSize: '1.15rem',
-                color: '#475569',
+                fontSize: '1.1rem',
+                color: '#b2dfdb',
                 maxWidth: '620px',
                 marginBottom: '28px',
               }}
             >
-              A complete open-source guide to modern robotics: ROS 2, Digital Twins,
-              NVIDIA Isaac, motor control, and Vision-Language-Action systems — everything
-              you need to build real humanoids.
+              A complete open-source guide to modern robotics: ROS 2, Digital
+              Twins, NVIDIA Isaac, motor control, and Vision-Language-Action
+              systems — everything you need to build real humanoids.
             </p>
 
             <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
               <a
                 href="/docs/intro"
                 style={{
-                  padding: '14px 28px',
+                  padding: '14px 30px',
                   background:
-                    'linear-gradient(135deg, #4f46e5, #6366f1)',
-                  color: '#fff',
-                  borderRadius: '12px',
+                    'linear-gradient(135deg, #00626b, #00838e)',
+                  color: '#e6fffb',
+                  borderRadius: '14px',
                   textDecoration: 'none',
                   fontSize: '1rem',
                   fontWeight: 600,
-                  boxShadow: '0 10px 30px rgba(79,70,229,.35)',
-                  transition: 'transform .25s ease, box-shadow .25s ease',
+                  boxShadow: '0 12px 30px rgba(0,131,142,.45)',
+                  transition: 'all .25s ease',
                 }}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.transform = 'translateY(-3px)';
                   e.currentTarget.style.boxShadow =
-                    '0 16px 40px rgba(79,70,229,.45)';
+                    '0 18px 40px rgba(0,131,142,.65)';
                 }}
                 onMouseLeave={(e) => {
                   e.currentTarget.style.transform = 'translateY(0)';
                   e.currentTarget.style.boxShadow =
-                    '0 10px 30px rgba(79,70,229,.35)';
+                    '0 12px 30px rgba(0,131,142,.45)';
                 }}
               >
                 🚀 Start Learning
@@ -115,22 +119,22 @@ export default function Home() {
                 target="_blank"
                 rel="noreferrer"
                 style={{
-                  padding: '14px 26px',
-                  borderRadius: '12px',
-                  border: '1.5px solid #c7d2fe',
-                  color: '#4f46e5',
-                  background: '#ffffff',
+                  padding: '14px 28px',
+                  borderRadius: '14px',
+                  border: '1.5px solid #0f797f',
+                  color: '#8ff3f1',
+                  background: 'transparent',
                   textDecoration: 'none',
                   fontSize: '1rem',
                   fontWeight: 600,
-                  transition: 'transform .25s ease, background .25s ease',
+                  transition: 'all .25s ease',
                 }}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.background = '#eef2ff';
+                  e.currentTarget.style.background = '#0b5b5f';
                   e.currentTarget.style.transform = 'translateY(-3px)';
                 }}
                 onMouseLeave={(e) => {
-                  e.currentTarget.style.background = '#ffffff';
+                  e.currentTarget.style.background = 'transparent';
                   e.currentTarget.style.transform = 'translateY(0)';
                 }}
               >
@@ -141,7 +145,7 @@ export default function Home() {
             <p
               style={{
                 marginTop: '36px',
-                color: '#64748b',
+                color: '#7fd1cf',
                 fontSize: '0.95rem',
               }}
             >
@@ -149,33 +153,32 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Right: Visual Card */}
+          {/* RIGHT CARD */}
           <div
             style={{
               background:
-                'linear-gradient(180deg, #ffffff, #f1f5f9)',
-              borderRadius: '20px',
+                'linear-gradient(180deg, #0b5b5f, #022b2e)',
+              borderRadius: '22px',
               padding: '28px',
-              boxShadow:
-                '0 20px 60px rgba(2, 6, 23, .12), inset 0 1px 0 #fff',
+              boxShadow: '0 25px 60px rgba(0,0,0,.45)',
             }}
           >
             <div
               style={{
-                borderRadius: '14px',
+                borderRadius: '16px',
                 padding: '22px',
                 background:
-                  'linear-gradient(135deg, #eef2ff, #ecfeff)',
+                  'linear-gradient(135deg, #00626b, #0f797f)',
               }}
             >
-              <h3 style={{ margin: 0, color: '#0f172a' }}>
+              <h3 style={{ margin: 0, color: '#e6fffb' }}>
                 What you’ll learn
               </h3>
               <ul
                 style={{
                   marginTop: '12px',
                   paddingLeft: '18px',
-                  color: '#334155',
+                  color: '#ccfbf1',
                   lineHeight: 1.7,
                 }}
               >
@@ -189,7 +192,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Responsive tweak */}
         <style>{`
           @media (max-width: 900px) {
             main section { grid-template-columns: 1fr !important; }

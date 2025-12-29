@@ -1,0 +1,301 @@
+/* Chatbot.module.css */
+
+/* Variables */
+:root {
+    --chat-primary: #0f797f;
+    --chat-secondary: #00838e;
+    --chat-bg-light: rgba(255, 255, 255, 0.85);
+    --chat-bg-dark: rgba(30, 30, 30, 0.85);
+    --chat-glass-border: 1px solid rgba(255, 255, 255, 0.3);
+    --chat-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    --chat-text-light: #2d3436;
+    --chat-text-dark: #dfe6e9;
+}
+
+/* Floating Button */
+.floatingButton {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--chat-primary);
+    box-shadow: 0 4px 15px rgba(108, 92, 231, 0.4);
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    animation: float 3s ease-in-out infinite;
+}
+
+.floatingButton:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(108, 92, 231, 0.6);
+}
+
+.floatingButton svg {
+    width: 30px;
+    height: 30px;
+}
+
+/* Chat Container */
+.chatContainer {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    width: 380px;
+    height: 600px;
+    max-height: 80vh;
+    background: var(--chat-bg-light);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 20px;
+    border: var(--chat-glass-border);
+    box-shadow: var(--chat-shadow);
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    transform-origin: bottom right;
+    opacity: 0;
+    transform: scale(0.9) translateY(20px);
+    pointer-events: none;
+}
+
+[data-theme='dark'] .chatContainer {
+    background: var(--chat-bg-dark);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.chatContainer.open {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    pointer-events: all;
+}
+
+/* Header */
+.header {
+    padding: 15px 20px;
+    background: linear-gradient(135deg, var(--chat-primary), var(--chat-secondary));
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.closeButton {
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.closeButton:hover {
+    opacity: 1;
+}
+
+/* Messages Area */
+.messages {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    scrollbar-width: thin;
+}
+
+.message {
+    max-width: 80%;
+    padding: 12px 16px;
+    border-radius: 18px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    position: relative;
+    word-wrap: break-word;
+    animation: messageSlide 0.3s ease-out forwards;
+}
+
+.userMessage {
+    align-self: flex-end;
+    background: var(--chat-primary);
+    color: white;
+    border-bottom-right-radius: 4px;
+}
+
+.botMessage {
+    align-self: flex-start;
+    background: rgba(230, 230, 230, 0.8);
+    color: #2d3436;
+    border-bottom-left-radius: 4px;
+}
+
+[data-theme='dark'] .botMessage {
+    background: rgba(60, 60, 60, 0.8);
+    color: #dfe6e9;
+}
+
+.selectionContext {
+    font-size: 0.75rem;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+
+/* Input Area */
+.inputArea {
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+[data-theme='dark'] .inputArea {
+    background: rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.input {
+    flex: 1;
+    padding: 12px 15px;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--chat-text-light);
+    outline: none;
+    transition: border-color 0.2s;
+    font-family: inherit;
+}
+
+[data-theme='dark'] .input {
+    background: rgba(50, 50, 50, 0.9);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: var(--chat-text-dark);
+}
+
+.input:focus {
+    border-color: var(--chat-primary);
+}
+
+.sendButton {
+    background: var(--chat-primary);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s;
+}
+
+.sendButton:hover {
+    transform: scale(1.1);
+}
+
+.contextPopup {
+    position: absolute;
+    bottom: 80px;
+    /* Above the input area */
+    left: 20px;
+    right: 20px;
+    background: var(--chat-primary);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    animation: slideUp 0.3s ease-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+.loadingDot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: currentColor;
+    border-radius: 50%;
+    margin: 0 2px;
+    animation: bounce 1.4s infinite ease-in-out both;
+}
+
+.loadingDot:nth-child(1) {
+    animation-delay: -0.32s;
+}
+
+.loadingDot:nth-child(2) {
+    animation-delay: -0.16s;
+}
+
+/* Animations */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-6px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes messageSlide {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    80%,
+    100% {
+        transform: scale(0);
+    }
+
+    40% {
+        transform: scale(1);
+    }
+}

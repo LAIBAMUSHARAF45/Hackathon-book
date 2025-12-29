@@ -6,14 +6,18 @@
 export default {
   "title": "Physical AI & Humanoid Robotics",
   "tagline": "An open-source book on modern robotics",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/robot_logo_v2.png",
+  "clientModules": [
+    "C:\\hackathon-book\\src\\chatbotInjector.js"
+  ],
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
-      "en"
+      "en",
+      "ur"
     ],
     "path": "i18n",
     "localeConfigs": {}
@@ -24,7 +28,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "C:\\hackathon-book\\docs\\sidebar.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/alishbamusharraf/Hackathon-"
         },
         "blog": false,
         "theme": {
@@ -35,7 +39,11 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "Physical AI & Humanoid Robotics Textbook",
+      "title": "Physical AI & Humanoid Robotics",
+      "logo": {
+        "alt": "Physical AI Logo",
+        "src": "img/robot_logo_v2.png"
+      },
       "items": [
         {
           "type": "docSidebar",
@@ -44,7 +52,23 @@ export default {
           "label": "Book"
         },
         {
-          "href": "https://github.com/LAIBAMUSHARAF45/Hackathon-book",
+          "to": "/login",
+          "label": "Login",
+          "position": "right"
+        },
+        {
+          "to": "/signup",
+          "label": "Sign Up",
+          "position": "right"
+        },
+        {
+          "type": "localeDropdown",
+          "position": "right",
+          "dropdownItemsBefore": [],
+          "dropdownItemsAfter": []
+        },
+        {
+          "href": "https://github.com/alishbamusharraf/Hackathon-",
           "label": "GitHub",
           "position": "right"
         }
@@ -81,12 +105,12 @@ export default {
           "items": [
             {
               "label": "GitHub",
-              "href": "https://github.com/LAIBAMUSHARAF45/Hackathon-book"
+              "href": "https://github.com/alishbamusharraf/Hackathon-"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2025 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2025 Physical AI & Humanoid Robotics. Built with Docusaurus."
     },
     "prism": {
       "theme": {
@@ -348,7 +372,6 @@ export default {
   "scripts": [],
   "headTags": [],
   "stylesheets": [],
-  "clientModules": [],
   "titleDelimiter": "|",
   "noIndex": false,
   "markdown": {

@@ -1,72 +1,94 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Physical AI & Humanoid Robotics',
   tagline: 'An open-source book on modern robotics',
-  favicon: 'img/favicon.ico', // I will create a placeholder for this later
+  favicon: 'img/robot_logo_v2.png',
 
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com', // Replace with final URL
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  // Client modules (chatbot etc.)
+  clientModules: [
+    require.resolve('./src/chatbotInjector.js'),
+  ],
+
+  url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
+  // 🌍 Language config (English)
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en','ur'],
   },
 
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: require.resolve('./docs/sidebar.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/alishbamusharraf/Hackathon-',
         },
-        blog: false, // Optional: disable the blog plugin
+        blog: false,
         theme: {
-          customCss: require.resolve('./src/css/custom.css'), // Assuming custom.css exists or will be created
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      
-     navbar: {
-  title: 'Physical AI & Humanoid Robotics Textbook',
-  
-  items: [
-    {
-      type: 'docSidebar',
-      sidebarId: 'tutorialSidebar',
-      position: 'left',
-      label: 'Book',
-    },
-    {
-      href: 'https://github.com/LAIBAMUSHARAF45/Hackathon-book',
-      label: 'GitHub',
-      position: 'right',
-     },
-   ],
- },
+      navbar: {
+        title: 'Physical AI & Humanoid Robotics',
+        logo: {
+          alt: 'Physical AI Logo',
+          src: 'img/robot_logo_v2.png',
+        },
+
+        // ✅ FINAL NAVBAR
+        items: [
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Book',
+          },
+
+          // 🔐 Login
+          {
+            to: '/login',
+            label: 'Login',
+            position: 'right',
+          },
+
+          // 📝 Sign Up
+          {
+            to: '/signup',
+            label: 'Sign Up',
+            position: 'right',
+          },
+
+          // 🌐 Language Dropdown (English – future ready)
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
+
+          // 🐙 GitHub
+          {
+            href: 'https://github.com/alishbamusharraf/Hackathon-',
+            label: 'GitHub',
+            position: 'right',
+          },
+        ],
+      },
+
       footer: {
         style: 'dark',
         links: [
@@ -75,7 +97,7 @@ const config = {
             items: [
               {
                 label: 'Book',
-                to: '/docs/intro', // Link to the intro page of the docs
+                to: '/docs/intro',
               },
             ],
           },
@@ -97,13 +119,15 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/LAIBAMUSHARAF45/Hackathon-book', // Replace with project repo
+                href: 'https://github.com/alishbamusharraf/Hackathon-',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright:
+          `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics. Built with Docusaurus.`,
       },
+
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
