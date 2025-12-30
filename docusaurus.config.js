@@ -36,7 +36,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./docs/sidebar.js'),
-          editUrl: 'https://github.com/alishbamusharraf/Hackathon-',
+          editUrl: 'https://github.com/LAIBAMUSHARAF45/Hackathon-book',
         },
         blog: false,
         theme: {
@@ -86,7 +86,7 @@ const config = {
 
           // 🐙 GitHub
           {
-            href: 'https://github.com/alishbamusharraf/Hackathon-',
+            href: 'https://github.com/LAIBAMUSHARAF45/Hackathon-book',
             label: 'GitHub',
             position: 'right',
           },
@@ -123,7 +123,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/alishbamusharraf/Hackathon-',
+                href: 'https://github.com/LAIBAMUSHARAF45/Hackathon-book',
               },
             ],
           },
