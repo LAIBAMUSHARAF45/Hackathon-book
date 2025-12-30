@@ -18,12 +18,16 @@ const config = {
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   // 🌍 Language config (English)
   i18n: {
     defaultLocale: 'en',
-    locales: ['en','ur'],
+    locales: ['en', 'ur'],
   },
 
   presets: [

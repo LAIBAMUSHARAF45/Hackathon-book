@@ -5,7 +5,7 @@
   "source": "@site/docs/module-4-vla/chapter-2-cognitive-planning.md",
   "sourceDirName": "module-4-vla",
   "slug": "/module-4-vla/chapter-2-cognitive-planning",
-  "permalink": "/docs/module-4-vla/chapter-2-cognitive-planning",
+  "permalink": "/ur/docs/module-4-vla/chapter-2-cognitive-planning",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/alishbamusharraf/Hackathon-/docs/module-4-vla/chapter-2-cognitive-planning.md",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 1: Voice-to-Action",
-    "permalink": "/docs/module-4-vla/chapter-1-voice-to-action"
+    "permalink": "/ur/docs/module-4-vla/chapter-1-voice-to-action"
   },
   "next": {
     "title": "Chapter 3: Capstone Overview",
-    "permalink": "/docs/module-4-vla/chapter-3-capstone-overview"
+    "permalink": "/ur/docs/module-4-vla/chapter-3-capstone-overview"
   }
 }

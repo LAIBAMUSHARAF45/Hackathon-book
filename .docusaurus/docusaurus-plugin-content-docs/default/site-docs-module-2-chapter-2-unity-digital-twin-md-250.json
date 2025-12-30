@@ -5,7 +5,7 @@
   "source": "@site/docs/module-2/chapter-2-unity-digital-twin.md",
   "sourceDirName": "module-2",
   "slug": "/module-2/chapter-2-unity-digital-twin",
-  "permalink": "/docs/module-2/chapter-2-unity-digital-twin",
+  "permalink": "/ur/docs/module-2/chapter-2-unity-digital-twin",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/alishbamusharraf/Hackathon-/docs/module-2/chapter-2-unity-digital-twin.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 1: Gazebo Physics",
-    "permalink": "/docs/module-2/chapter-1-gazebo-physics"
+    "permalink": "/ur/docs/module-2/chapter-1-gazebo-physics"
   },
   "next": {
     "title": "Chapter 3: Sensor Simulation",
-    "permalink": "/docs/module-2/chapter-3-sensor-simulation"
+    "permalink": "/ur/docs/module-2/chapter-3-sensor-simulation"
   }
 }

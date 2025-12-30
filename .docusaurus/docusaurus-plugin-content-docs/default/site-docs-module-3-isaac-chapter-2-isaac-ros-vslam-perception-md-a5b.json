@@ -5,7 +5,7 @@
   "source": "@site/docs/module-3-isaac/chapter-2-isaac-ros-vslam-perception.md",
   "sourceDirName": "module-3-isaac",
   "slug": "/module-3-isaac/chapter-2-isaac-ros-vslam-perception",
-  "permalink": "/docs/module-3-isaac/chapter-2-isaac-ros-vslam-perception",
+  "permalink": "/ur/docs/module-3-isaac/chapter-2-isaac-ros-vslam-perception",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/alishbamusharraf/Hackathon-/docs/module-3-isaac/chapter-2-isaac-ros-vslam-perception.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 1: Isaac Sim Fundamentals",
-    "permalink": "/docs/module-3-isaac/chapter-1-isaac-sim-fundamentals"
+    "permalink": "/ur/docs/module-3-isaac/chapter-1-isaac-sim-fundamentals"
   },
   "next": {
     "title": "Chapter 3: Nav2 Path Planning for Humanoids",
-    "permalink": "/docs/module-3-isaac/chapter-3-nav2-humanoid-planning"
+    "permalink": "/ur/docs/module-3-isaac/chapter-3-nav2-humanoid-planning"
   }
 }

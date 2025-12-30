@@ -5,7 +5,7 @@
   "source": "@site/docs/module-1/chapter-4-joint-control-project.md",
   "sourceDirName": "module-1",
   "slug": "/module-1/chapter-4-joint-control-project",
-  "permalink": "/docs/module-1/chapter-4-joint-control-project",
+  "permalink": "/ur/docs/module-1/chapter-4-joint-control-project",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/alishbamusharraf/Hackathon-/docs/module-1/chapter-4-joint-control-project.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 3: URDF Fundamentals",
-    "permalink": "/docs/module-1/chapter-3-urdf-fundamentals"
+    "permalink": "/ur/docs/module-1/chapter-3-urdf-fundamentals"
   },
   "next": {
     "title": "Chapter 1: Gazebo Physics",
-    "permalink": "/docs/module-2/chapter-1-gazebo-physics"
+    "permalink": "/ur/docs/module-2/chapter-1-gazebo-physics"
   }
 }

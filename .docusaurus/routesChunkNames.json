@@ -1,139 +1,96 @@
 {
-  "/__docusaurus/debug-5ff": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
+  "/ur/login-49a": {
+    "__comp": "380abe66",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/config-5ba": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/content-a2b": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "a7456010"
     },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+    "config": "5e9f5e1a"
   },
-  "/__docusaurus/debug/globalData-c3c": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
+  "/ur/signup-699": {
+    "__comp": "83ac7242",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/metadata-156": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/registry-88c": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/routes-000": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/login-a8c": {
-    "__comp": "__comp---site-src-pages-login-js-380-710",
-    "__context": {
-      "plugin": "plugin---logina-74-fc3"
+      "plugin": "a7456010"
     },
-    "config": "config---login-5-e-9-d49"
+    "config": "5e9f5e1a"
   },
-  "/singup-f44": {
-    "__comp": "__comp---site-src-pages-singup-jsd-80-c86",
+  "/ur/docs-b94": {
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---logina-74-fc3"
-    },
-    "config": "config---login-5-e-9-d49"
-  },
-  "/docs-19e": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
-    "__context": {
-      "plugin": "plugin---docsaba-d7c"
+      "plugin": "aba21aa0"
     }
   },
-  "/docs-22d": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---docs-005-788"
+  "/ur/docs-674": {
+    "__comp": "a7bd4aaa",
+    "__props": "04f2558c"
   },
-  "/docs-45c": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+  "/ur/docs-ae5": {
+    "__comp": "a94703ab"
   },
-  "/docs/intro-61d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
+  "/ur/docs/intro-8a7": {
+    "__comp": "17896441",
+    "content": "9e1a014e"
   },
-  "/docs/module-1/chapter-1-core-concepts-983": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-1-chapter-1-core-conceptsdaf-225"
+  "/ur/docs/module-1/chapter-1-core-concepts-125": {
+    "__comp": "17896441",
+    "content": "daffc9be"
   },
-  "/docs/module-1/chapter-2-rclpy-control-9e3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-1-chapter-2-rclpy-control-140-0b4"
+  "/ur/docs/module-1/chapter-2-rclpy-control-966": {
+    "__comp": "17896441",
+    "content": "14066dc9"
   },
-  "/docs/module-1/chapter-3-urdf-fundamentals-1c9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-1-chapter-3-urdf-fundamentals-6-c-7-e71"
+  "/ur/docs/module-1/chapter-3-urdf-fundamentals-31e": {
+    "__comp": "17896441",
+    "content": "6c78093e"
   },
-  "/docs/module-1/chapter-4-joint-control-project-492": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-1-chapter-4-joint-control-project-123-3f7"
+  "/ur/docs/module-1/chapter-4-joint-control-project-de7": {
+    "__comp": "17896441",
+    "content": "123d6eb0"
   },
-  "/docs/module-2/chapter-1-gazebo-physics-d9d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-2-chapter-1-gazebo-physics-103-c76"
+  "/ur/docs/module-2/chapter-1-gazebo-physics-b59": {
+    "__comp": "17896441",
+    "content": "10353681"
   },
-  "/docs/module-2/chapter-2-unity-digital-twin-ed6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-2-chapter-2-unity-digital-twin-250-9f4"
+  "/ur/docs/module-2/chapter-2-unity-digital-twin-f27": {
+    "__comp": "17896441",
+    "content": "2507a4d9"
   },
-  "/docs/module-2/chapter-3-sensor-simulation-7b2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-2-chapter-3-sensor-simulationacf-d72"
+  "/ur/docs/module-2/chapter-3-sensor-simulation-5ca": {
+    "__comp": "17896441",
+    "content": "acf56a6c"
   },
-  "/docs/module-3-isaac/chapter-1-isaac-sim-fundamentals-83a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-3-isaac-chapter-1-isaac-sim-fundamentals-839-7eb"
+  "/ur/docs/module-3-isaac/chapter-1-isaac-sim-fundamentals-07b": {
+    "__comp": "17896441",
+    "content": "83985cb3"
   },
-  "/docs/module-3-isaac/chapter-2-isaac-ros-vslam-perception-884": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-3-isaac-chapter-2-isaac-ros-vslam-perceptiona-5-b-ef7"
+  "/ur/docs/module-3-isaac/chapter-2-isaac-ros-vslam-perception-613": {
+    "__comp": "17896441",
+    "content": "a5baf50b"
   },
-  "/docs/module-3-isaac/chapter-3-nav2-humanoid-planning-25c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-3-isaac-chapter-3-nav-2-humanoid-planningf-6-f-52e"
+  "/ur/docs/module-3-isaac/chapter-3-nav2-humanoid-planning-335": {
+    "__comp": "17896441",
+    "content": "f6f4a9d9"
   },
-  "/docs/module-3-isaac/chapter-4-isaac-sim-ros-workflow-491": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-3-isaac-chapter-4-isaac-sim-ros-workflowe-97-14a"
+  "/ur/docs/module-3-isaac/chapter-4-isaac-sim-ros-workflow-8cb": {
+    "__comp": "17896441",
+    "content": "e97402ad"
   },
-  "/docs/module-4-vla/chapter-1-voice-to-action-c97": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-4-vla-chapter-1-voice-to-action-4-c-7-629"
+  "/ur/docs/module-4-vla/chapter-1-voice-to-action-47c": {
+    "__comp": "17896441",
+    "content": "4c700768"
   },
-  "/docs/module-4-vla/chapter-2-cognitive-planning-649": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-4-vla-chapter-2-cognitive-planningd-19-8b8"
+  "/ur/docs/module-4-vla/chapter-2-cognitive-planning-7e8": {
+    "__comp": "17896441",
+    "content": "d19a0b40"
   },
-  "/docs/module-4-vla/chapter-3-capstone-overview-692": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-4-vla-chapter-3-capstone-overview-8-cf-46d"
+  "/ur/docs/module-4-vla/chapter-3-capstone-overview-153": {
+    "__comp": "17896441",
+    "content": "8cfc7004"
   },
-  "/-2e1": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+  "/ur/-3b1": {
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---logina-74-fc3"
+      "plugin": "a7456010"
     },
-    "config": "config---login-5-e-9-d49"
+    "config": "5e9f5e1a"
   }
 }

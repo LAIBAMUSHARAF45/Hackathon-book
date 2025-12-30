@@ -5,7 +5,7 @@
   "source": "@site/docs/module-1/chapter-1-core-concepts.md",
   "sourceDirName": "module-1",
   "slug": "/module-1/chapter-1-core-concepts",
-  "permalink": "/docs/module-1/chapter-1-core-concepts",
+  "permalink": "/ur/docs/module-1/chapter-1-core-concepts",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/alishbamusharraf/Hackathon-/docs/module-1/chapter-1-core-concepts.md",
@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Introduction",
-    "permalink": "/docs/intro"
+    "title": "خوش آمدید",
+    "permalink": "/ur/docs/intro"
   },
   "next": {
     "title": "Chapter 1: Core ROS 2 Concepts",
-    "permalink": "/docs/module-1/chapter-1-core-concepts"
+    "permalink": "/ur/docs/module-1/chapter-1-core-concepts"
   }
 }

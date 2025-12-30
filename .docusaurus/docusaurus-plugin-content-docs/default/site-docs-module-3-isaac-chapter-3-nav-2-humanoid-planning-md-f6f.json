@@ -5,7 +5,7 @@
   "source": "@site/docs/module-3-isaac/chapter-3-nav2-humanoid-planning.md",
   "sourceDirName": "module-3-isaac",
   "slug": "/module-3-isaac/chapter-3-nav2-humanoid-planning",
-  "permalink": "/docs/module-3-isaac/chapter-3-nav2-humanoid-planning",
+  "permalink": "/ur/docs/module-3-isaac/chapter-3-nav2-humanoid-planning",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/alishbamusharraf/Hackathon-/docs/module-3-isaac/chapter-3-nav2-humanoid-planning.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 2: Isaac ROS VSLAM + Perception",
-    "permalink": "/docs/module-3-isaac/chapter-2-isaac-ros-vslam-perception"
+    "permalink": "/ur/docs/module-3-isaac/chapter-2-isaac-ros-vslam-perception"
   },
   "next": {
     "title": "Chapter 1: Voice-to-Action",
-    "permalink": "/docs/module-4-vla/chapter-1-voice-to-action"
+    "permalink": "/ur/docs/module-4-vla/chapter-1-voice-to-action"
   }
 }

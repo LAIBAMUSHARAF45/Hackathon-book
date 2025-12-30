@@ -5,7 +5,7 @@
   "source": "@site/docs/module-1/chapter-2-rclpy-control.md",
   "sourceDirName": "module-1",
   "slug": "/module-1/chapter-2-rclpy-control",
-  "permalink": "/docs/module-1/chapter-2-rclpy-control",
+  "permalink": "/ur/docs/module-1/chapter-2-rclpy-control",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/alishbamusharraf/Hackathon-/docs/module-1/chapter-2-rclpy-control.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 1: Core ROS 2 Concepts",
-    "permalink": "/docs/module-1/chapter-1-core-concepts"
+    "permalink": "/ur/docs/module-1/chapter-1-core-concepts"
   },
   "next": {
     "title": "Chapter 3: URDF Fundamentals",
-    "permalink": "/docs/module-1/chapter-3-urdf-fundamentals"
+    "permalink": "/ur/docs/module-1/chapter-3-urdf-fundamentals"
   }
 }

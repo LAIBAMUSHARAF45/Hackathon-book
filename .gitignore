@@ -50,3 +50,4 @@ out/
 *.a
 *.exe
 *.dll
+.docusaurus/
